@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Panel aurora.unity
     guid: 67a02adf62bc67f45b32c83562135730
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 2d6acfc0873e0ec43a35e654e8686778
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8bec6bd9a78032a428bfc0767cc1f6d1, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c199658eb9637644b98901021545c293, type: 2}
