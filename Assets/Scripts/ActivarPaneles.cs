@@ -13,6 +13,11 @@ public class ActivarPaneles : MonoBehaviour
 	public GameObject PanelConocenos;
 	public GameObject PanelFoto;
 	public GameObject PanelSobreMural;
+	public GameObject PanelRespuesta1;
+	public GameObject PanelRespuesta2;
+	public GameObject PanelRespuesta3;
+	
+	
 
 	// Start is called on the frame when a script is enabled just before any of the Update methods is called the first time.
 	protected void Start()
@@ -30,6 +35,9 @@ public class ActivarPaneles : MonoBehaviour
 		PanelConocenos.SetActive(false);
 		PanelFoto.SetActive(false);
 		PanelSobreMural.SetActive(false);
+		PanelRespuesta1.SetActive(false);
+		PanelRespuesta2.SetActive(false);
+		PanelRespuesta3.SetActive(false);
 	
 		
 		//Activo el argumento
