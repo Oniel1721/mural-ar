@@ -65,8 +65,9 @@ public class Camara : MonoBehaviour
 			SetActivesObjetos(true);
 			EncenderUnPanel(panelFoto);
 		}
+		text.text = Application.persistentDataPath;
 	}
-    
+	
     
 	void SetActivesObjetos(bool valor){
 		for(int i = 0; i<ObjetosAOcultar.Length; i++){
@@ -94,8 +95,13 @@ public class Camara : MonoBehaviour
 	
 	
 	public void Guardar(){
-		NativeToolkit.SaveImage(lastImageTexture, "muralAr", "jpg");
-		DespuesDeGuardar(true, "una vaina rara");
+		//NativeToolkit.SaveImage(lastImageTexture, "Almacenamiento interno/DCIM/Camera", ".png");
+		
+		File.WriteAllBytes( "/storage/emulated/0/Mural/tabaco.png",lastImageTexture.EncodeToPNG());
+	}
+	
+	void OnImageSaved(string loquesea){
+		text.text = loquesea;
 	}
 	
 	void DespuesDeGuardar(bool sucess, string path){
