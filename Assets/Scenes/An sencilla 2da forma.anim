@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Transition01
+  m_Name: An sencilla 2da forma
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -22,37 +22,37 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -1122
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: 1134
+        inSlope: -2953.3333
+        outSlope: -2953.3333
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.3
-        value: -237
-        inSlope: 2980
-        outSlope: 2980
-        tangentMode: 0
+        value: 248
+        inSlope: -2196.6667
+        outSlope: -2196.6667
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.43333334
-        value: 0
-        inSlope: 3000
-        outSlope: 3000
-        tangentMode: 0
+        value: 56
+        inSlope: -2538.9475
+        outSlope: -2538.9475
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: 1113
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: -1096
+        inSlope: -3637.8948
+        outSlope: -3637.8948
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -60,7 +60,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: 
+    path: Image
     classID: 224
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -72,7 +72,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 0
+      path: 83635035
       attribute: 1460864421
       script: {fileID: 0}
       typeID: 224
@@ -105,37 +105,37 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -1122
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: 1134
+        inSlope: -2953.3333
+        outSlope: -2953.3333
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.3
-        value: -237
-        inSlope: 2980
-        outSlope: 2980
-        tangentMode: 0
+        value: 248
+        inSlope: -2196.6667
+        outSlope: -2196.6667
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.43333334
-        value: 0
-        inSlope: 3000
-        outSlope: 3000
-        tangentMode: 0
+        value: 56
+        inSlope: -2538.9475
+        outSlope: -2538.9475
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.75
-        value: 1113
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        value: -1096
+        inSlope: -3637.8948
+        outSlope: -3637.8948
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
@@ -143,7 +143,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: 
+    path: Image
     classID: 224
     script: {fileID: 0}
   m_EulerEditorCurves: []
