@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
+using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.Android;
 
 public class Camara : MonoBehaviour
 {
@@ -10,23 +13,34 @@ public class Camara : MonoBehaviour
 	public GameObject panelEscaner;
 	public GameObject panelFoto;
 	public GameObject objetoImagen;
-	
+	public GameObject AdvertenciaGuardar;
+	public GameObject AdvertenciaDescartar;
 	
 	Texture2D lastImageTexture;
 	string lastFileName = "";
+	
+	public TextMeshProUGUI text;
 	
 	// Start is called before the first frame update
 	void Start()
 	{
 		NativeGallery.CheckPermission(NativeGallery.PermissionType.Write);
 		SetActivesObjetos(true);
-		EncenderUnPanel(true);
+		EncenderUnPanel(panelEscaner);
+	}
+	
+	void OnEnable(){
+		if(!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageWrite)){
+			Permission.RequestUserPermission(Permission.ExternalStorageWrite);
+		}
 	}
     
-	public void EncenderUnPanel(bool panel){
-		panelEscaner.SetActive(panel);
-		panelFoto.SetActive(!panel);
-		if(!panel){
+	public void EncenderUnPanel(GameObject panel){
+		panelEscaner.SetActive(false);
+		panelFoto.SetActive(false);
+		panel.SetActive(true);
+		
+		if(panel == panelFoto){
 			UpdateImage();
 		}
 	}
@@ -49,7 +63,7 @@ public class Camara : MonoBehaviour
 	void Update(){
 		if(File.Exists(Application.persistentDataPath+"/"+lastFileName)){
 			SetActivesObjetos(true);
-			EncenderUnPanel(false);
+			EncenderUnPanel(panelFoto);
 		}
 	}
     
@@ -75,24 +89,38 @@ public class Camara : MonoBehaviour
 	
 	public void Descartar(){
 		File.Delete(Application.persistentDataPath+"/"+lastFileName);
-		EncenderUnPanel(true);
+		EncenderUnPanel(panelEscaner);
 	}
 	
+	
 	public void Guardar(){
-		NativeGallery.SaveImageToGallery(lastImageTexture, "MuralAR", "mural_tabaco", DespuesDeGuardar);
+		NativeToolkit.SaveImage(lastImageTexture, "muralAr", "jpg");
+		DespuesDeGuardar(true, "una vaina rara");
 	}
 	
 	void DespuesDeGuardar(bool sucess, string path){
+		text.text = path;
 		if(sucess){
+			AdvertenciaGuardar.SetActive(true);
 			Descartar();
 		}
 	}
+	
+	public void DesactivarAdvertencia(){
+		AdvertenciaDescartar.SetActive(false);
+		AdvertenciaGuardar.SetActive(false);
+	}
+	
 	
 	public void Compartir(){
 		new NativeShare().AddFile( lastImageTexture, lastFileName)
 			.SetSubject( "MuralAR" ).SetText( "Mural Photo" )
 			.SetCallback( ( result, shareTarget ) => Debug.Log( "Share result: " + result + ", selected app: " + shareTarget ) )
 			.Share();
+	}
+	
+	public void volverApaneles(){
+		SceneManager.LoadScene("paneles");
 	}
 	
 }
