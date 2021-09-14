@@ -3176,7 +3176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -192, y: 53}
+  m_AnchoredPosition: {x: -194, y: -25.560669}
   m_SizeDelta: {x: 95.7403, y: 95.7403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &401032192
@@ -5457,7 +5457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185.26263, y: 53.48488}
+  m_AnchoredPosition: {x: -187.33362, y: 21.484879}
   m_SizeDelta: {x: 113.3387, y: 113.3387}
   m_Pivot: {x: 0.50000006, y: 0.49999976}
 --- !u!114 &636648174
@@ -7069,8 +7069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7373998, y: -135.6482}
-  m_SizeDelta: {x: 564.3486, y: 114.3122}
+  m_AnchoredPosition: {x: 0.000017166, y: -126.39794}
+  m_SizeDelta: {x: 661.73, y: 190.0642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780916866
 MonoBehaviour:
@@ -7118,14 +7118,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 261947714}
         m_TargetAssemblyTypeName: BotonURL, Assembly-CSharp
-        m_MethodName: ULRTco
-        m_Mode: 1
+        m_MethodName: openWeb
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://t-ecogroup.net/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &780916867
@@ -8542,7 +8542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &937840800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8740,7 +8740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: 52.56067}
+  m_AnchoredPosition: {x: 58, y: -26}
   m_SizeDelta: {x: 379.429, y: 75.6992}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943470837
@@ -12373,7 +12373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.071, y: 49}
+  m_AnchoredPosition: {x: 64, y: 17}
   m_SizeDelta: {x: 318.7191, y: 71.6518}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370097719
@@ -14689,7 +14689,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1530557741}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 261947714}
+        m_TargetAssemblyTypeName: BotonURL, Assembly-CSharp
+        m_MethodName: openWeb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: https://www.laaurora.com.do/
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1530557741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15319,8 +15331,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.2224, y: 489.3066}
-  m_SizeDelta: {x: 655.4448, y: 174.3867}
+  m_AnchoredPosition: {x: 7.2224, y: 498.88925}
+  m_SizeDelta: {x: 655.4448, y: 155.2214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597619586
 MonoBehaviour:
@@ -15842,7 +15854,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672352260}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -16810,7 +16822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1787018214
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16982,8 +16994,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.7373998, y: 38}
-  m_SizeDelta: {x: 564.3486, y: 114.3122}
+  m_AnchoredPosition: {x: -0.0009860992, y: 116.04373}
+  m_SizeDelta: {x: 661.73, y: 210.7926}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800404636
 MonoBehaviour:
@@ -17031,14 +17043,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 261947714}
         m_TargetAssemblyTypeName: BotonURL, Assembly-CSharp
-        m_MethodName: URLIG
-        m_Mode: 1
+        m_MethodName: openWeb
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://instagram.com/t_ecogroup?utm_medium=copy_link
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1800404637
@@ -18288,7 +18300,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1920042927
 RectTransform:
   m_ObjectHideFlags: 0

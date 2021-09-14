@@ -47,5 +47,4 @@ public class ActivarPaneles : MonoBehaviour
 	public void CambiarEscena(string NombreDeLaEscena){
 		SceneManager.LoadScene(NombreDeLaEscena);
 	}
-   
 }
