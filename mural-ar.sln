@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{6A523551-6B2C-A7DE-B098-E5A85A9C5218}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6E67C995-91EF-DF99-A5F3-B932CA51E5DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeShare.Runtime", "NativeShare.Runtime.csproj", "{188482BE-712B-AC8A-4729-AFD9B917B76F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Runtime", "NativeGallery.Runtime.csproj", "{E2F57D05-7990-E526-B742-7CBBAE884A3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{E95DD98E-5BE6-1674-5365-A043700D0429}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{12FE268A-FE0C-5B5D-E5A2-5E05B86D78F9}"
 EndProject
@@ -21,6 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A523551-6B2C-A7DE-B098-E5A85A9C5218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A523551-6B2C-A7DE-B098-E5A85A9C5218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A523551-6B2C-A7DE-B098-E5A85A9C5218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A523551-6B2C-A7DE-B098-E5A85A9C5218}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E67C995-91EF-DF99-A5F3-B932CA51E5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E67C995-91EF-DF99-A5F3-B932CA51E5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E67C995-91EF-DF99-A5F3-B932CA51E5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +41,10 @@ Global
 		{E2F57D05-7990-E526-B742-7CBBAE884A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2F57D05-7990-E526-B742-7CBBAE884A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F57D05-7990-E526-B742-7CBBAE884A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E95DD98E-5BE6-1674-5365-A043700D0429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95DD98E-5BE6-1674-5365-A043700D0429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95DD98E-5BE6-1674-5365-A043700D0429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95DD98E-5BE6-1674-5365-A043700D0429}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12FE268A-FE0C-5B5D-E5A2-5E05B86D78F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12FE268A-FE0C-5B5D-E5A2-5E05B86D78F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12FE268A-FE0C-5B5D-E5A2-5E05B86D78F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
