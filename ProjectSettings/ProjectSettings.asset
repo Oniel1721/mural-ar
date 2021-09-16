@@ -42,9 +42,9 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: f0aacb78de7cc2148a90fbc7f073f2a1, type: 3}
+  - logo: {fileID: 21300000, guid: d6d4ad6d4fe2b402485d716035f72943, type: 3}
     duration: 2
-  - logo: {fileID: 21300000, guid: 968fbe103ab0d7849918cbd68ba400f1, type: 3}
+  - logo: {fileID: 21300000, guid: 8c619f9ff04190b4db1efddf609356c6, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -153,6 +153,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.MuralTabaco001
+    Standalone: com.MJAMANECER.ARTABACO
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -267,7 +268,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f0aacb78de7cc2148a90fbc7f073f2a1, type: 3}
+      m_Icon: {fileID: 2800000, guid: d6d4ad6d4fe2b402485d716035f72943, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
