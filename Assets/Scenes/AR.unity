@@ -982,7 +982,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f0698c9e314f04684607ca6175174b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjetosAOcultar: []
+  ObjetosAOcultar:
+  - {fileID: 369528738}
+  - {fileID: 1836545286}
+  - {fileID: 1254679597}
   panelEscaner: {fileID: 1887427553}
   panelFoto: {fileID: 2109252177}
   objetoImagen: {fileID: 2109252177}
@@ -1772,30 +1775,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 369528738}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1836545286}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &370295411
 MonoBehaviour:
@@ -4697,30 +4676,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 369528738}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1836545286}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1254679602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5119,7 +5074,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 977241404}
+      - m_Target: {fileID: 490011221}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -6009,10 +5964,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 211762745}
-        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
-        m_MethodName: CambiarEscena
-        m_Mode: 5
+      - m_Target: {fileID: 211762743}
+        m_TargetAssemblyTypeName: Camara, Assembly-CSharp
+        m_MethodName: volverApaneles
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6993,7 +6948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: fb5f13802e98c1841ac481778f6dcde4, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 2088443766964957143, guid: 127e1a4c97e944645842ce7e7476d5a7, type: 3}
+  m_TrackedImagePrefab: {fileID: 170216487134739438, guid: 427f4c962bfc45a438c2dc1b13a61e12, type: 3}
 --- !u!114 &2140299372
 MonoBehaviour:
   m_ObjectHideFlags: 0

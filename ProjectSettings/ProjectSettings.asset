@@ -42,7 +42,7 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: f0aacb78de7cc2148a90fbc7f073f2a1, type: 3}
+  - logo: {fileID: 21300000, guid: d6d4ad6d4fe2b402485d716035f72943, type: 3}
     duration: 2
   - logo: {fileID: 21300000, guid: 8c619f9ff04190b4db1efddf609356c6, type: 3}
     duration: 2
@@ -135,8 +135,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -8465646357140169189, guid: 225a10b79ed70d54d89d2bb6b1ba4a0d, type: 2}
   - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: -8465646357140169189, guid: 225a10b79ed70d54d89d2bb6b1ba4a0d, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -270,7 +270,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f0aacb78de7cc2148a90fbc7f073f2a1, type: 3}
+      m_Icon: {fileID: 2800000, guid: d6d4ad6d4fe2b402485d716035f72943, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

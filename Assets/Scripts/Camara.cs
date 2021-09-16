@@ -88,6 +88,7 @@ public class Camara : MonoBehaviour
 	
 	public void Descartar(){
 		File.Delete(Application.persistentDataPath+"/"+lastFileName);
+		SetActivesObjetos(true);
 		AdvertenciaDescartar.SetActive(false);
 		EncenderUnPanel(panelEscaner);
 	}
