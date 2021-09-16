@@ -19,7 +19,6 @@ public class Camara : MonoBehaviour
 	Texture2D lastImageTexture;
 	string lastFileName = "";
 	
-	public TextMeshProUGUI text;
 	
 	// Start is called before the first frame update
 	void Start()
@@ -65,7 +64,6 @@ public class Camara : MonoBehaviour
 			SetActivesObjetos(true);
 			EncenderUnPanel(panelFoto);
 		}
-		text.text = Application.persistentDataPath;
 	}
 	
     
@@ -90,6 +88,7 @@ public class Camara : MonoBehaviour
 	
 	public void Descartar(){
 		File.Delete(Application.persistentDataPath+"/"+lastFileName);
+		AdvertenciaDescartar.SetActive(false);
 		EncenderUnPanel(panelEscaner);
 	}
 	
@@ -101,11 +100,9 @@ public class Camara : MonoBehaviour
 	}
 	
 	void OnImageSaved(string loquesea){
-		text.text = loquesea;
 	}
 	
 	void DespuesDeGuardar(bool sucess, string path){
-		text.text = path;
 		if(sucess){
 			AdvertenciaGuardar.SetActive(true);
 			Descartar();

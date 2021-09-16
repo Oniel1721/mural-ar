@@ -44,7 +44,7 @@ public class ActivarPaneles : MonoBehaviour
 		PanelAEncender.SetActive(true);
 	}
 	
-	public void CambiarEscena(string NombreDeLaEscena){
-		SceneManager.LoadScene(NombreDeLaEscena);
+	public void CambiarEscena(){
+		SceneManager.LoadScene("AR");
 	}
 }
