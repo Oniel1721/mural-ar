@@ -1312,7 +1312,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 144906935}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 261947712}
+        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
+        m_MethodName: EncenderUnPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1917394781}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &144906935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1408,8 +1420,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Creamos esta aplicacion porque vimos la necesidad de crear una forma divertida
-    e intuitiva de ver el turismo de nuestro pais y la historia del mismo.
+  m_text: "Creamos esta aplicaci\xF3n porque vimos la necesidad de crear una forma
+    divertida e intuitiva de ver el turismo de nuestro pa\xEDs y la historia del
+    mismo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5b242ea12fea4c2698615ba0610b485, type: 2}
   m_sharedMaterial: {fileID: -6076910836705606879, guid: e5b242ea12fea4c2698615ba0610b485, type: 2}
@@ -2728,7 +2741,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFQuienes somos?"
+  m_text: "\xBFQui\xE9nes somos?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a27a90a62263b40168cf1508758f4bcb, type: 2}
   m_sharedMaterial: {fileID: -4959643632837543597, guid: a27a90a62263b40168cf1508758f4bcb, type: 2}
@@ -3748,7 +3761,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481444445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -3784,19 +3797,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 481444448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 261947712}
-        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
-        m_MethodName: EncenderUnPanel
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 438211140}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &481444448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4980,7 +4981,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 595528319}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 261947712}
+        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
+        m_MethodName: EncenderUnPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1614810977}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &595528319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7224,7 +7237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Leobardo Nu\xF1ez"
+  m_text: "Leobardo N\xFA\xF1ez"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5b242ea12fea4c2698615ba0610b485, type: 2}
   m_sharedMaterial: {fileID: -6076910836705606879, guid: e5b242ea12fea4c2698615ba0610b485, type: 2}
@@ -7481,7 +7494,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 834042710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 261947712}
+        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
+        m_MethodName: EncenderUnPanel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 438211140}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &834042710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13544,7 +13569,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1384746424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -13580,19 +13605,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1384746427}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 261947712}
-        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
-        m_MethodName: EncenderUnPanel
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1614810977}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1384746427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18633,7 +18646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Intencion de la app '
+  m_text: "Intenci\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a27a90a62263b40168cf1508758f4bcb, type: 2}
   m_sharedMaterial: {fileID: -4959643632837543597, guid: a27a90a62263b40168cf1508758f4bcb, type: 2}
@@ -19360,7 +19373,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1920042927
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20678,7 +20691,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050710070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -20714,19 +20727,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2050710073}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 261947712}
-        m_TargetAssemblyTypeName: ActivarPaneles, Assembly-CSharp
-        m_MethodName: EncenderUnPanel
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1917394781}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2050710073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20782,7 +20783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2069586309
 RectTransform:
   m_ObjectHideFlags: 0
