@@ -3,7 +3,17 @@ guid: dfbab8740e7a34b36b2a5d717485675a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Etiqueta
+    second: {fileID: 2100000, guid: 56c5ec8edd3a3ee47998832685d1c9c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cigarro texture
+    second: {fileID: 2100000, guid: 98ecfee1db2234220a9d0a0814eaa97d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

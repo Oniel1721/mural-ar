@@ -21,7 +21,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 16460277154785289737
       m_GuidHigh: 15973388237749934683
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 1, y: 0.60925925}
+    m_SpecifySize: 1
     m_Name: Remini20210826102935167_1
     m_Texture: {fileID: 0}
